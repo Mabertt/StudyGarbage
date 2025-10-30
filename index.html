@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin: 30px 0;
+        }
+        
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .example {
+            margin: 15px 0;
+            padding: 10px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+        }
+        
+        .ampersand-example {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .ampersand-example span:first-child {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        
+        .ampersand-example span:last-child {
+            font-family: 'Courier New', monospace;
+            background-color: #ecf0f1;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        
+        .poem {
+            font-style: italic;
+            padding: 15px;
+            background-color: white;
+            border-left: 4px solid #9b59b6;
+        }
+        
+        .formatting-example {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ви завітали на пробну сторінку Дорощука Павла</h1>
+    
+    <section>
+        <h1>Приклади використання заголовків</h1>
+        <div class="example">
+            <h2>Приклад заголовку 2-го порядку</h2>
+            <h3>Приклад заголовку 3-го порядку</h3>
+            <h4>Приклад заголовку 4-го порядку</h4>
+            <h5>Приклад заголовку 5-го порядку</h5>
+            <h6>Приклад заголовку 6-го порядку</h6>
+        </div>
+    </section>
+    
+    <section>
+        <h1>Приклади використання горизонтальних лінійок</h1>
+        <div class="example">
+            <p>Лінійка товщиною 1px, ширина 100%:</p>
+            <hr style="height: 1px; width: 100%;">
+            
+            <p>Лінійка товщиною 3px, ширина 80%:</p>
+            <hr style="height: 3px; width: 80%;">
+            
+            <p>Лінійка товщиною 5px, ширина 60%:</p>
+            <hr style="height: 5px; width: 60%;">
+            
+            <p>Лінійка товщиною 7px, ширина 50%:</p>
+            <hr style="height: 7px; width: 50%;">
+            
+            <p>Лінійка товщиною 10px, ширина 40%:</p>
+            <hr style="height: 10px; width: 40%;">
+            
+            <p>Лінійка товщиною 15px, ширина 30%:</p>
+            <hr style="height: 15px; width: 30%;">
+        </div>
+    </section>
+    
+    <section>
+        <h1>Приклади використання розривів стрічок</h1>
+        <div class="poem">
+            <p>
+                Реве та стогне Дніпр широкий,<br>
+                Сердитий вітер завива,<br>
+                Додолу верби гне високі,<br>
+                Горами хвилю підійма.
+            </p>
+        </div>
+    </section>
+    
+    <section>
+        <h1>Приклади амперсант-послідовностей</h1>
+        <div class="example">
+            <div class="ampersand-example">
+                <span>&</span>
+                <span>&amp;amp;</span>
+            </div>
+            <div class="ampersand-example">
+                <span>&lt;</span>
+                <span>&amp;lt;</span>
+            </div>
+            <div class="ampersand-example">
+                <span>&gt;</span>
+                <span>&amp;gt;</span>
+            </div>
+            <div class="ampersand-example">
+                <span>&copy;</span>
+                <span>&amp;copy;</span>
+            </div>
+            <div class="ampersand-example">
+                <span>&nbsp;</span>
+                <span>&amp;nbsp; (нерозривний пробіл)</span>
+            </div>
+            <div class="ampersand-example">
+                <span>&quot;</span>
+                <span>&amp;quot;</span>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h1>Приклади використання форматувань</h1>
+        <div class="example">
+            <div class="formatting-example">
+                <p><strong>Жирний текст (bold)</strong> - використовується тег &lt;strong&gt; або &lt;b&gt;</p>
+            </div>
+            <div class="formatting-example">
+                <p><em>Курсивний текст (italic)</em> - використовується тег &lt;em&gt; або &lt;i&gt;</p>
+            </div>
+            <div class="formatting-example">
+                <p><u>Підкреслений текст (underline)</u> - використовується тег &lt;u&gt;</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
