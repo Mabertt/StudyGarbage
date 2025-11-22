@@ -3,34 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Пробна сторінка Дорощук Павло</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
             line-height: 1.6;
+            background-color: #f0f4f8;
+            color: #2c3e50;
         }
         
         h1 {
             text-align: center;
-            color: #2c3e50;
+            color: #1a5490;
             margin: 30px 0;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
         }
         
         section {
             margin-bottom: 40px;
             padding: 20px;
-            background-color: #f8f9fa;
+            background-color: white;
             border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
-        .example {
-            margin: 15px 0;
-            padding: 10px;
-            background-color: white;
-            border-left: 4px solid #3498db;
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: #9b59b6;
+        }
+        
+        a:hover {
+            color: #e74c3c;
+            text-decoration: underline;
         }
         
         .ampersand-example {
@@ -39,8 +54,7 @@
             align-items: center;
             padding: 10px;
             margin: 10px 0;
-            background-color: white;
-            border: 1px solid #ddd;
+            background-color: #ecf0f1;
             border-radius: 4px;
         }
         
@@ -52,7 +66,7 @@
         
         .ampersand-example span:last-child {
             font-family: 'Courier New', monospace;
-            background-color: #ecf0f1;
+            background-color: #d5dbdb;
             padding: 5px 10px;
             border-radius: 4px;
         }
@@ -60,54 +74,101 @@
         .poem {
             font-style: italic;
             padding: 15px;
-            background-color: white;
-            border-left: 4px solid #9b59b6;
+            background-color: #fef5e7;
+            border-left: 4px solid #f39c12;
+            margin: 15px 0;
         }
         
-        .formatting-example {
-            margin: 15px 0;
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        
+        th, td {
             padding: 15px;
-            background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            border: 2px solid #34495e;
+            text-align: left;
+        }
+        
+        th:first-child, td:first-child {
+            background-color: #e8f4f8;
+            color: #1a5490;
+        }
+        
+        th:last-child, td:last-child {
+            background-color: #fef5e7;
+            color: #d68910;
+        }
+        
+        .email-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        .email-link:hover {
+            background-color: #2980b9;
+            color: white;
+        }
+        
+        .image-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-link img {
+            max-width: 200px;
+            height: auto;
+            border: 3px solid #34495e;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        
+        .image-link img:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <h1>Ви завітали на пробну сторінку Дорощука Павла</h1>
+    <a name="top"></a>
+    
+    <h1>Ви завітали на пробну сторінку Дорощук Павло</h1>
     
     <section>
         <h1>Приклади використання заголовків</h1>
-        <div class="example">
-            <h2>Приклад заголовку 2-го порядку</h2>
-            <h3>Приклад заголовку 3-го порядку</h3>
-            <h4>Приклад заголовку 4-го порядку</h4>
-            <h5>Приклад заголовку 5-го порядку</h5>
-            <h6>Приклад заголовку 6-го порядку</h6>
-        </div>
+        <h2>Приклад заголовку 2-го порядку</h2>
+        <h3>Приклад заголовку 3-го порядку</h3>
+        <h4>Приклад заголовку 4-го порядку</h4>
+        <h5>Приклад заголовку 5-го порядку</h5>
+        <h6>Приклад заголовку 6-го порядку</h6>
     </section>
     
     <section>
         <h1>Приклади використання горизонтальних лінійок</h1>
-        <div class="example">
-            <p>Лінійка товщиною 1px, ширина 100%:</p>
-            <hr style="height: 1px; width: 100%;">
-            
-            <p>Лінійка товщиною 3px, ширина 80%:</p>
-            <hr style="height: 3px; width: 80%;">
-            
-            <p>Лінійка товщиною 5px, ширина 60%:</p>
-            <hr style="height: 5px; width: 60%;">
-            
-            <p>Лінійка товщиною 7px, ширина 50%:</p>
-            <hr style="height: 7px; width: 50%;">
-            
-            <p>Лінійка товщиною 10px, ширина 40%:</p>
-            <hr style="height: 10px; width: 40%;">
-            
-            <p>Лінійка товщиною 15px, ширина 30%:</p>
-            <hr style="height: 15px; width: 30%;">
-        </div>
+        <p>Лінійка товщиною 1px, ширина 100%:</p>
+        <hr style="height: 1px; width: 100%; border: none; background-color: #34495e;">
+        
+        <p>Лінійка товщиною 3px, ширина 80%:</p>
+        <hr style="height: 3px; width: 80%; border: none; background-color: #3498db;">
+        
+        <p>Лінійка товщиною 5px, ширина 60%:</p>
+        <hr style="height: 5px; width: 60%; border: none; background-color: #e74c3c;">
+        
+        <p>Лінійка товщиною 7px, ширина 50%:</p>
+        <hr style="height: 7px; width: 50%; border: none; background-color: #f39c12;">
+        
+        <p>Лінійка товщиною 10px, ширина 40%:</p>
+        <hr style="height: 10px; width: 40%; border: none; background-color: #9b59b6;">
+        
+        <p>Лінійка товщиною 15px, ширина 30%:</p>
+        <hr style="height: 15px; width: 30%; border: none; background-color: #1abc9c;">
     </section>
     
     <section>
@@ -124,47 +185,140 @@
     
     <section>
         <h1>Приклади амперсант-послідовностей</h1>
-        <div class="example">
-            <div class="ampersand-example">
-                <span>&</span>
-                <span>&amp;amp;</span>
-            </div>
-            <div class="ampersand-example">
-                <span>&lt;</span>
-                <span>&amp;lt;</span>
-            </div>
-            <div class="ampersand-example">
-                <span>&gt;</span>
-                <span>&amp;gt;</span>
-            </div>
-            <div class="ampersand-example">
-                <span>&copy;</span>
-                <span>&amp;copy;</span>
-            </div>
-            <div class="ampersand-example">
-                <span>&nbsp;</span>
-                <span>&amp;nbsp; (нерозривний пробіл)</span>
-            </div>
-            <div class="ampersand-example">
-                <span>&quot;</span>
-                <span>&amp;quot;</span>
-            </div>
+        <div class="ampersand-example">
+            <span>&</span>
+            <span>&amp;amp;</span>
+        </div>
+        <div class="ampersand-example">
+            <span>&lt;</span>
+            <span>&amp;lt;</span>
+        </div>
+        <div class="ampersand-example">
+            <span>&gt;</span>
+            <span>&amp;gt;</span>
+        </div>
+        <div class="ampersand-example">
+            <span>&copy;</span>
+            <span>&amp;copy;</span>
+        </div>
+        <div class="ampersand-example">
+            <span>&nbsp;</span>
+            <span>&amp;nbsp; (нерозривний пробіл)</span>
+        </div>
+        <div class="ampersand-example">
+            <span>&quot;</span>
+            <span>&amp;quot;</span>
         </div>
     </section>
     
     <section>
         <h1>Приклади використання форматувань</h1>
-        <div class="example">
-            <div class="formatting-example">
-                <p><strong>Жирний текст (bold)</strong> - використовується тег &lt;strong&gt; або &lt;b&gt;</p>
-            </div>
-            <div class="formatting-example">
-                <p><em>Курсивний текст (italic)</em> - використовується тег &lt;em&gt; або &lt;i&gt;</p>
-            </div>
-            <div class="formatting-example">
-                <p><u>Підкреслений текст (underline)</u> - використовується тег &lt;u&gt;</p>
-            </div>
-        </div>
+        <p><strong>Напівжирний</strong></p>
+        <p><em>Курсив</em></p>
+        <p><strong><em>Напівжирний курсив</em></strong></p>
     </section>
+    
+    <section>
+        <h1>Приклади використання списків</h1>
+        
+        <h2>Приклад використання ненумерованих списків</h2>
+        <ul>
+            <li>Перший елемент ненумерованого списку</li>
+            <li>Другий елемент ненумерованого списку</li>
+            <li>Третій елемент ненумерованого списку</li>
+            <li>Четвертий елемент ненумерованого списку</li>
+        </ul>
+        
+        <h2>Приклад використання нумерованого списку</h2>
+        <ol>
+            <li>Перший елемент нумерованого списку</li>
+            <li>Другий елемент нумерованого списку</li>
+            <li>Третій елемент нумерованого списку</li>
+            <li>Четвертий елемент нумерованого списку</li>
+        </ol>
+        
+        <h2>Приклад використання списків визначень</h2>
+        <dl>
+            <dt><strong>Означення №1</strong></dt>
+            <dd>тут буде текст означення №1</dd>
+            
+            <dt><strong>Означення №2</strong></dt>
+            <dd>тут буде текст означення №2</dd>
+            
+            <dt><strong>Означення №3</strong></dt>
+            <dd>тут буде текст означення №3</dd>
+            
+            <dt><strong>Означення №4</strong></dt>
+            <dd>тут буде текст означення №4</dd>
+        </dl>
+        
+        <h2>Приклад вкладених списків</h2>
+        <ol>
+            <li>Овочі:
+                <ol type="a">
+                    <li>Огірок</li>
+                    <li>Баклажан</li>
+                    <li>Кабачок</li>
+                </ol>
+            </li>
+            <li>Фрукти:
+                <ol type="a">
+                    <li>Яблуко</li>
+                    <li>Груша</li>
+                    <li>Авокадо</li>
+                </ol>
+            </li>
+            <li>Ягоди:
+                <ol type="a">
+                    <li>Агрус</li>
+                    <li>Малина</li>
+                    <li>Кавун</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+    
+    <section>
+        <h1>Приклади використання гіперпосилань</h1>
+        <p><a href="https://www.oa.edu.ua" target="_blank">Офіційний сайт Національного університету "Острозька академія"</a></p>
+        <p><a href="textfile.txt" target="_blank">Відкрити текстовий файл</a></p>
+        <p><a href="#top">Перейти на початок документу</a></p>
+        <p><a href="#bottom">Перейти в кінець документу</a></p>
+    </section>
+    
+    <section>
+        <h1>Приклад використання вставки малюнків</h1>
+        <a href="https://www.oa.edu.ua" class="image-link" title="Перейти на сайт Острозької академії">
+            <img src="https://www.oa.edu.ua/ua/info/aggr/logo/gerb_ostr_akadem.png" alt="Герб Острозької академії">
+        </a>
+    </section>
+    
+    <section>
+        <h1>Приклад використання таблиць</h1>
+        <table>
+            <tr>
+                <th>Список викладачів</th>
+                <th>Список студентів</th>
+            </tr>
+            <tr>
+                <td>
+                    Проф. Іваненко О.М.<br>
+                    Доц. Петренко С.В.<br>
+                    Ст. викл. Сидоренко М.П.
+                </td>
+                <td>
+                    Дорощук Павло<br>
+                    Коваленко Андрій<br>
+                    Шевченко Марія
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+    <a name="bottom"></a>
+    
+    <a href="mailto:pavlo.doroshchuk@example.com" class="email-link" title="Клацніть тут, щоб написати мені листа">
+        Написати мені листа
+    </a>
 </body>
 </html>
